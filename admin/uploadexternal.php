@@ -17,7 +17,7 @@ if($_POST)
 		die("Course URL is empty!");
 	}
         
-        $query = mysql_query("INSERT INTO course VALUES ('', '{$_POST['mName']}','','','{$_POST['url']}')")or die(mysql_error());
+        $query = mysql_query("INSERT INTO course VALUES('', '{$_POST['mName']}','','','{$_POST['url']}','External Course')")or die(mysql_error());
         die("success");
    }else{
    		die('error uploading File!');

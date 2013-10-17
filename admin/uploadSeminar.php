@@ -28,8 +28,8 @@ if($_POST)
        
 	if(!isset($_FILES['mFile']))
 	{
-		$FileTitle= mysql_real_escape_string($_POST['mName']);
-		$query = mysql_query("INSERT INTO course VALUES ('', '$FileTitle','{$_POST['descr']}','','{$_POST['url']}','Short Course')")or die(mysql_error());
+                $FileTitle= mysql_real_escape_string($_POST['mName']);
+		$query = mysql_query("INSERT INTO course VALUES ('', '$FileTitle','{$_POST['descr']}','','','Seminar')")or die(mysql_error());
                 die("success");
 	}else{
 
@@ -74,7 +74,7 @@ if($_POST)
    {
 		
         //connect & insert file record in database
-        $query = mysql_query("INSERT INTO course VALUES ('', '$FileTitle','{$_POST['descr']}','$NewFileName','{$_POST['url']}','Short Course')")or die(mysql_error());
+        $query = mysql_query("INSERT INTO course VALUES ('', '$FileTitle','{$_POST['descr']}','$NewFileName','','Seminar')")or die(mysql_error());
         die("success");
    }else{
    		die('error uploading File!');

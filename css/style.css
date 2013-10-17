@@ -15,6 +15,9 @@ a{
     text-decoration: none;
 }
 
+/*#headerSection {background: url(../images/shadow.png) no-repeat center bottom #EEE;border-bottom: 1px solid #dedede; padding: 8px 0 0;}
+#headerSection {border-bottom:1px solid #fff;position: fixed;top: 0;left: 0;display: inline-block;width: 100%;z-index: 1;transition: all 800ms;z-index: 9999;}*/
+
 #output{
     color: #a04646;
 }

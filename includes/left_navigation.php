@@ -11,5 +11,5 @@
     <li><a href="<?php echo $rootdocument ?>/admin/">Admin Login <i class="icon-chevron-right pull-right"></i></a></li>
 </ul>
 <h3>Calendar</h3>
-<h3>facebook Integration</h3>
+
 <h3>Visitors counter</h3>

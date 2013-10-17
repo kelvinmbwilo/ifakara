@@ -1,10 +1,18 @@
-<div class="row-fluid">
+<?php include_once "{$rootdocument}/includes/connection.php"; ?>
+<style>
+    #headerSection {background: url(<?php echo $rootdocument ?>/img/shadow.png) no-repeat center bottom #EEE;border-bottom: 1px solid #dedede;}
+    #navbarnav li a{
+        color: #196456;
+    }
+/*#headerSection {border-bottom:1px solid #fff;display: inline-block;width: 100%;z-index: 1;transition: all 800ms;z-index: 9999;}*/
+</style>
+<div class="row-fluid" id="headerSection">
     <div class="span1"></div>
     <div class="span10">
          <div class="masthead">
             <img src="<?php echo $rootdocument ?>/img/logo.jpg" class="pull-left img-circle">
             <h2 style="color: #196456;font-family: 'Bistro Script', Atrament "> Tanzania Training Center For International Health Ifakara</h2>
-            <div class="navbar" style="padding-top: 10px">
+            <div class="navbar">
               <div class="navbar-inner">
                 <div class="container" id="navs">
                   
@@ -15,10 +23,10 @@
                   <span class="icon-bar"></span>
                 </a>
                 
-                <a class="brand active" href="<?php echo $rootdocument ?>/"><strong>TTCIH</strong></a>
+                <a class="brand active" href="<?php echo $rootdocument ?>/" style="color:#196456 "><strong>TTCIH</strong></a>
                 
                   <div class="nav-collapse collapse" >
-                  <ul class="nav" >
+                  <ul class="nav" id="navbarnav" >
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
                       <ul class="dropdown-menu">
@@ -38,14 +46,13 @@
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                     </ul>
-                  <!--dropdown-->
-                     <form class="navbar-form form-search pull-right" action="search.php" method="post">
-                        <div class="input-append">
-                          <input type="text" class="search-query" placeholder="Search" id="searchpeople" name="querystring">
-                          <button type="submit" class="btn btn-primary" title="search" id="search-submit"><i class="icon-search icon-white"></i></button>
-                        </div>
-                    </form>
+                  <!--form-->
                   
+                  <ul class = "nav pull-right">
+                        <li><a href = "#"><img src = "<?php echo $rootdocument ?>/img/facebook.png"></a></li>
+                     <li><a href = "#"><img src = "<?php echo $rootdocument ?>/img/twitter.png"></a></li>
+                    <li><a href = "#"><img src = "<?php echo $rootdocument ?>/img/googleplus.png"></a></li>
+                        </ul>
                 </div>
                 </div>
               </div>

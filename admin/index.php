@@ -20,7 +20,7 @@
         <div style="background: #F2F9FC">
            <?php include '../includes/top_navigation.php'; ?>
       </div>
-        <div align="center" style="background: #E2E7E3" >
+        <div align="center" >
         
             <!--contents-->
             <div class="row-fluid">

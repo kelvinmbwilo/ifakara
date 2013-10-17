@@ -19,17 +19,26 @@ if($_POST)
 		//required variables are empty
 		die("Title is empty!");
 	}
+	
+        if(!isset($_POST['eventdate']) || strlen($_POST['eventdate'])<1)
+	{
+		//required variables are empty
+		die("Date is empty!");
+	}
+        
         if(!isset($_POST['descr']) || strlen($_POST['descr'])<1)
 	{
 		//required variables are empty
 		die("Description is empty!");
 	}
-	
-       
+        
 	if(!isset($_FILES['mFile']))
 	{
-		$FileTitle= mysql_real_escape_string($_POST['mName']);
-		$query = mysql_query("INSERT INTO course VALUES ('', '$FileTitle','{$_POST['descr']}','','{$_POST['url']}','Short Course')")or die(mysql_error());
+                $FileTitle= mysql_real_escape_string($_POST['mName']);
+		$query = mysql_query("UPDATE event SET title ='{$FileTitle}' WHERE id='{$_POST['id']}'")or die(mysql_error());
+                $query = mysql_query("UPDATE event SET date ='{$_POST['eventdate']}' WHERE id='{$_POST['id']}'")or die(mysql_error());
+                $query = mysql_query("UPDATE event SET description ='{$_POST['descr']}' WHERE id='{$_POST['id']}'")or die(mysql_error());
+                //$query = mysql_query("UPDATE event SET photo ='{$NewFileName}' WHERE id='{$_POST['id']}'")or die(mysql_error());
                 die("success");
 	}else{
 
@@ -51,15 +60,15 @@ if($_POST)
 	switch(strtolower($FileType))
 	{
 		//allowed file types
-//		case 'image/png': //png file
-//		case 'image/gif': //gif file 
-//		case 'image/jpeg': //jpeg file
-		case 'application/pdf': //PDF file
-		case 'application/msword': //ms word file
-		case 'application/vnd.ms-excel': //ms excel file
+		case 'image/png': //png file
+		case 'image/gif': //gif file 
+		case 'image/jpeg': //jpeg file
+//		case 'application/pdf': //PDF file
+//		case 'application/msword': //ms word file
+//		case 'application/vnd.ms-excel': //ms excel file
 //		case 'application/x-zip-compressed': //zip file
-		case 'text/plain': //text file
-		case 'text/html': //html file
+//		case 'text/plain': //text file
+//		case 'text/html': //html file
 			break;
 		default:
 			die('Unsupported File!'); //output error
@@ -68,13 +77,16 @@ if($_POST)
   
 	//File Title will be used as new File name
 	$NewFileName = preg_replace(array('/\s/', '/\.[\.]+/', '/[^\w_\.\-]/'), array('_', '.', ''), strtolower($FileTitle));
-	$NewFileName = '_'.$RandNumber.$ImageExt;
+	$NewFileName = $NewFileName.'_'.$RandNumber.$ImageExt;
    //Rename and save uploded file to destination folder.
    if(move_uploaded_file($_FILES['mFile']["tmp_name"], $UploadDirectory . $NewFileName ))
    {
 		
         //connect & insert file record in database
-        $query = mysql_query("INSERT INTO course VALUES ('', '$FileTitle','{$_POST['descr']}','$NewFileName','{$_POST['url']}','Short Course')")or die(mysql_error());
+        $query = mysql_query("UPDATE event SET title ='{$FileTitle}' WHERE id='{$_POST['id']}'")or die(mysql_error());
+        $query = mysql_query("UPDATE event SET date ='{$_POST['eventdate']}' WHERE id='{$_POST['id']}'")or die(mysql_error());
+        $query = mysql_query("UPDATE event SET description ='{$_POST['descr']}' WHERE id='{$_POST['id']}'")or die(mysql_error());
+        $query = mysql_query("UPDATE event SET photo ='{$NewFileName}' WHERE id='{$_POST['id']}'")or die(mysql_error());
         die("success");
    }else{
    		die('error uploading File!');

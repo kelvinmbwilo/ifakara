@@ -2,6 +2,9 @@
 To change this template, choose Tools | Templates
 and open the template in the editor.
 -->
+<?php
+include_once '{$rootdocument}/includes/connection.php';
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,10 +13,10 @@ and open the template in the editor.
         <?php include_once 'includes/headerLinks.php'; ?>
     </head>
     <body>
-        <div class="btn btn-block">
+        <div>
            <?php include 'includes/top_navigation.php'; ?>
       </div>
-        <div align="center" style="background: #E2E7E3">
+        <div align="center" style="">
         
             <!--contents-->
             <div class="row-fluid">
@@ -24,27 +27,11 @@ and open the template in the editor.
                 <!--slide show-->
                 <div class="span9">
                     <?php include 'slideshow.php'; ?>
-                </div>
-                 <!--left navigation on slide slow-->
-                <div class="span3 text-left lead">
-                    
-                    <div class="well" style="background:#8DC06E">
-                        <a href="#"><i class="icon-globe icon-large"></i>  Travel Health <i class="icon-chevron-right icon-large pull-right"></i></a>
-                    </div><div class="well" style="background:#8DC06E">
-                        <a href="<?php echo $rootdocument ?>/education/"><i class="icon-book icon-large"></i> Education <i class="icon-chevron-right icon-large pull-right"></i></a>
-                    </div><div class="well" style="background:#8DC06E">
-                        <a href="#"><i class="icon-briefcase icon-large"></i> Vacancies <i class="icon-chevron-right icon-large pull-right"></i></a>
-                    </div><div class="well" style="background:#8DC06E">
-                        <a href="#"><i class="icon-heart icon-large"></i> Donations <i class="icon-chevron-right icon-large pull-right"></i></a>
-                    </div>
-                    
-                </div>
-            </div>
             <div class="row-fluid" >
                     <div class="span3  text-left" id="leftnav">
                         <?php include 'includes/left_navigation.php'; ?>
                     </div>
-                    <div class="span7">
+                    <div class="span9">
                         <h2 class="text-left" id="nw">News And Events</h2>
                  <div class="row-fluid text-left" style="padding-bottom: 20px">
                     <div class="row-fluid well-small">
@@ -78,10 +65,13 @@ and open the template in the editor.
                 </div>
             </div>
                     </div>
-                <div class="span2">
-                    <?php include 'pages/right_navigation.php'; ?>
+            </div>
+                </div>
+                <div class="span3">
+                    <?php include 'includes/right.php'; ?>
                 </div>
                 </div>
+</div>
                 </div>
                 <div class="span1"></div>
             </div>
