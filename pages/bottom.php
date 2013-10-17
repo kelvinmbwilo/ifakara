@@ -1,6 +1,6 @@
 </div>
-        <div class="span2">
-            <?php include 'right_navigation.php'; ?>
+        <div class="span3">
+            <?php include '../includes/right.php'; ?>
         </div>
      </div>
      </div>

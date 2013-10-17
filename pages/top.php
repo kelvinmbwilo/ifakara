@@ -16,7 +16,7 @@
                 <div class="span1"></div>
                 <div class="span10">
                     <div class="row-fluid" >
-                    <div class="span3  text-left" id="leftnav">
+                    <div class="span2  text-left" id="leftnav">
                         <?php include '../includes/left_navigation.php'; ?>
                     </div>
                    <div class="span7">
