@@ -11,7 +11,7 @@
     <div class="span10">
          <div class="masthead">
             <img src="<?php echo $rootdocument ?>/img/logo.jpg" class="pull-left img-circle visible-desktop">
-            <h2 style="color: #0E4891;font-family: 'Bistro Script', Atrament;font-size: 26px" class="visible-desktop" >
+            <h2 style="color: #0E4891;font-family: 'museo-1,museo-2, sans-serif;', Atrament;font-size: 26px" class="visible-desktop" >
                 <strong> Tanzania Training Center For International Health Ifakara </strong>
             </h2>
             <div class="navbar">
@@ -51,6 +51,7 @@
                          <li><a href="<?php echo $rootdocument ?>/pages/staff.php">Seminars</a></li>
                          <li><a href="<?php echo $rootdocument ?>/pages/faculty.php">External Courses</a></li>
                          <li><a href="<?php echo $rootdocument ?>/pages/faculty.php">Bring Your Course To Ifakara</a></li>
+                         <li><a href="<?php echo $rootdocument ?>/pages/faculty.php">Moodle Login</a></li>
                       </ul>
                     </li>
                     
@@ -62,6 +63,7 @@
                          <li><a href="<?php echo $rootdocument ?>/pages/links.php">Helpful Links</a></li>
                          <li><a href="<?php echo $rootdocument ?>/pages/conference.php">Conferences</a></li>
                          <li><a href="<?php echo $rootdocument ?>/pages/album.php">Photo Album</a></li>
+                         <li><a href="http://192.100.100.56:8504/" target="blank">Intranet</a></li>
                       </ul>
                     </li>
                     <li><a href="<?php echo $rootdocument ?>/pages/FAQ.php"><i class="icon-question"></i> FAQs</a></li>

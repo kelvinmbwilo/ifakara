@@ -18,16 +18,16 @@ include 'top.php';
 		      <div class="accordion-inner">
 		        <ul class="nav nav-tabs nav-stacked">
                             <li><a href="http://www.moh.go.tz/" target="blank">
-                                    Tanzanian Ministry of Health & Social Welfare
+                                    <i class="icon-globe"></i> Tanzanian Ministry of Health & Social Welfare
                                 </a></li>
                             <li><a href="http://www.novartisfoundation.org/page/content/index.asp?MenuID=594&ID=1797&Menu=3&Item=44.17" target="blank">
-                                    Novartis Foundation for Sustainable Development
+                                    <i class="icon-globe"></i> Novartis Foundation for Sustainable Development
                                 </a></li>
                             <li><a href="http://www.sti.ch/" target="blank">
-                                    Swiss Tropical and Public Health Institute
+                                    <i class="icon-globe"></i> Swiss Tropical and Public Health Institute
                                 </a></li>
                             <li><a href="http://www.sdc.admin.ch/en/Home/Countries/Eastern_and_Central_Africa/Tanzania" target="blank">
-                                    Swiss Agency for Development & Cooperation
+                                    <i class="icon-globe"></i> Swiss Agency for Development & Cooperation
                                 </a></li>
                         </ul>
 		      </div>
@@ -45,13 +45,13 @@ include 'top.php';
           <div class="accordion-inner">
             <ul class="nav nav-tabs nav-stacked">
                 <li><a href="http://en.wikipedia.org/wiki/Ifakara" target="blank">
-                        About Ifakara
+                        <i class="icon-globe"></i> About Ifakara
                     </a></li>
                 <li><a href="http://www.ifakara.org/en/index.php" target="blank">
-                        Doctors for Ifakara
+                        <i class="icon-globe"></i> Doctors for Ifakara
                     </a></li>
                 <li><a href="http://www.novartisfoundation.org/page/content/index.asp?MenuID=294&ID=654&Menu=3&Item=47.5.1" target="blank">
-                        Ifakara – a powerful place of sustainable development
+                        <i class="icon-globe"></i> Ifakara – a powerful place of sustainable development
                     </a></li>
                 
             </ul>
@@ -70,10 +70,10 @@ include 'top.php';
           <div class="accordion-inner">
             <ul class="nav nav-tabs nav-stacked">
                 <li><a href="http://en.wikipedia.org/wiki/Tanzania" target="blank">
-                        About Tanzania
+                        <i class="icon-globe"></i> About Tanzania
                     </a></li>
                 <li><a href="http://www.kamusi.org/" target="blank">
-                        English-Kiswahili Dictionary
+                        <i class="icon-globe"></i> English-Kiswahili Dictionary
                     </a></li>
             </ul>
           </div>
@@ -91,28 +91,28 @@ include 'top.php';
           <div class="accordion-inner">
             <ul class="nav nav-tabs nav-stacked">
                 <li><a href="http://192.100.100.56:8504/" target="blank">
-                        Intranet
+                        <i class="icon-globe"></i> Intranet
                     </a></li>
                 <li><a href="http://picasaweb.google.com/ttcihi" target="blank">
-                        Web album
+                        <i class="icon-globe"></i> Web album
                     </a></li>
                 <li><a href="http://www.kcmc.ac.tz/" target="blank">
-                        Kilimanjaro Christian Medical College
+                        <i class="icon-globe"></i> Kilimanjaro Christian Medical College
                     </a></li>
                 <li><a href="http://www.cedha.ac.tz/" target="blank">
-                        Centre for Educational Development in Health
+                        <i class="icon-globe"></i> Centre for Educational Development in Health
                     </a></li>
                 <li><a href="http://www.healthtraining.org/schools/ifakara.php#Crs1" target="blank">
-                       Medicus Mundi Switzerland
+                       <i class="icon-globe"></i> Medicus Mundi Switzerland
                     </a></li>
                 <li><a href="http://www.ihi.or.tz/" target="blank">
-                        Ifakara Health Institute
+                        <i class="icon-globe"></i> Ifakara Health Institute
                     </a></li>
                 <li><a href="http://hso.info/" target="blank">
-                       HSO (Health Services Online)
+                       <i class="icon-globe"></i> HSO (Health Services Online)
                     </a></li>
                 <li><a href="http://www.tzonline.org/" target="blank">
-                        Tanzania Online
+                        <i class="icon-globe"></i> Tanzania Online
                     </a></li>
             </ul>
           </div>

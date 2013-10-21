@@ -6,7 +6,6 @@
         <?php include_once '../includes/headerLinks.php'; ?>
     </head>
     <body>
-        
         <div class="" >
            <?php include '../includes/top_navigation.php'; ?>
       </div>
