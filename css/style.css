@@ -36,10 +36,11 @@ a{
   }
   
   #leftnav li{
-      background-image: url(../img/back.jpg);
-      margin-bottom: 6px;
+      background-image: url(../img/back1.jpg);
+      margin-bottom: 2px;
       font-family: Arial, Georgia;
       border-bottom-right-radius: 15px;
+      border-top-left-radius: 15px;
   }
   
   #leftnav li a{

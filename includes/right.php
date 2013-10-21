@@ -6,29 +6,9 @@
     }
 </style>
 
-<form method="get" action="http://www.google.com/custom" target="_top" class="navbar-form form-search">
-<!--<a href="http://www.google.com/"> <img src="<?php //echo $rootdocument ?>/img/google.png" alt="Google" align="left" border="0" /></a>-->
 
-      <input name="domains" value="healthtrainingifakara.org" type="hidden" />
-            <div class="input-append">
-                          <input name="q" size="14" maxlength="255" value="" type="text" class="search-query" placeholder="G-Search">
-                          <button type="submit" name="sa" class="btn btn-primary" title="Google Search" id="search-submit"><i class="icon-search icon-white"></i></button>
-                        </div>
-           
-<br />
-       <input name="sitesearch" value="" checked="checked" type="radio" /><font color="#000000" size="-1">Web</font> 
 
-           <input name="sitesearch" value="healthtrainingifakara.org" type="radio" /><font color="#000000" size="-1">TTCIH</font>
-
-              
-
-        <input name="client" value="pub-4398475047992702" type="hidden" /> <input name="forid" value="1" type="hidden" /><input name="ie" value="ISO-8859-1" type="hidden" /><input name="oe" value="ISO-8859-1" type="hidden" /><input name="safe" value="active" type="hidden" /><input name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1" type="hidden" /><input name="hl" value="en" type="hidden" /></td>
-
-      
-
-</form>
-
-<div class="row-fluid" style="background: url(<?php echo $rootdocument ?>/img/back1.jpg);border-radius: 10px;margin-bottom: 25px;">
+<div class="row-fluid" style="background: url(<?php echo $rootdocument ?>/img/back1.jpg);border-radius: 10px;margin-bottom: 5px;">
     <h3>Upcoming Courses</h3>
     <div class="row-fluid" id="cont" style="background: #f6f8fc">
         <?php
@@ -45,7 +25,7 @@
                 $date  = date("l F,j Y", strtotime($row['date']));
                 $query1 = mysql_query("SELECT * FROM course WHERE id='{$row['course_id']}'");
                 while ($row3 = mysql_fetch_array($query1)) {
-                echo "<li><a href='#'><span style='font-size:0.8em'>Disaster medicine and health crisis management - University of Athens</span>"; 
+                echo "<li><a href='#'><span>Disaster medicine and health crisis management - University of Athens</span>"; 
                   echo "<br><span style='color:black; font-size: 0.7em'>{$date}</span></a></li>";  
                 }
               }
@@ -55,7 +35,19 @@
     </div>
 </div>
 
-<div class="row-fluid" style="background: url(<?php echo $rootdocument ?>/img/back1.jpg);border-radius: 10px;margin-bottom: 25px;">
+<form method="get" action="http://www.google.com/custom" target="_top" class="navbar-form form-search">
+     <input name="domains" value="healthtrainingifakara.org" type="hidden" />
+     <div class="input-append">
+        <input name="q" size="14" value="" type="text" class="search-query" placeholder="G-Search">
+        <button type="submit" name="sa" class="btn btn-primary" title="Google Search" id="search-submit"><i class="icon-search icon-white"></i></button>
+      </div>
+<br />
+        <input name="sitesearch" value="" checked="checked" type="radio" /><font color="#000000" size="-1">Web</font> 
+        <input name="sitesearch" value="healthtrainingifakara.org" type="radio" /><font color="#000000" size="-1">TTCIH</font>
+        <input name="client" value="pub-4398475047992702" type="hidden" /> <input name="forid" value="1" type="hidden" /><input name="ie" value="ISO-8859-1" type="hidden" /><input name="oe" value="ISO-8859-1" type="hidden" /><input name="safe" value="active" type="hidden" /><input name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1" type="hidden" /><input name="hl" value="en" type="hidden" /></td>
+</form>
+
+<div class="row-fluid" style="background: url(<?php echo $rootdocument ?>/img/back1.jpg);border-radius: 10px;margin-bottom: 1px;">
     <h3>Our Partners</h3>
     <div class="row-fluid text-left" id="cont" style="background: #f6f8fc">
         <ul class="nav nav-tabs nav-stacked">

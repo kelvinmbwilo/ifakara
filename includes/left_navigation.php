@@ -1,4 +1,5 @@
-<ul class="nav nav-tabs nav-stacked">
+
+<ul class="nav nav-tabs nav-stacked ">
     <li style=""><a href="<?php echo $rootdocument ?>/">Home <i class="icon-chevron-right pull-right"></i></a></li>
     <li><a href="<?php echo $rootdocument ?>/pages/about.php">About Us <i class="icon-chevron-right pull-right"></i></a></li>
     <li><a href="<?php echo $rootdocument ?>/">Courses <i class="icon-chevron-right pull-right"></i></a></li>

@@ -7,7 +7,7 @@
     </head>
     <body>
         
-        <div class="btn btn-block" >
+        <div class="" >
            <?php include '../includes/top_navigation.php'; ?>
       </div>
         

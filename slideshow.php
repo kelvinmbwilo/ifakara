@@ -1,4 +1,9 @@
  <div id="myCarousel" class="carousel slide">
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
      <div class="carousel-inner" >
         <div class="item active">
           <img src="img/img2.jpg" alt="" style="height: 340px;width: 800px" class="img-rounded">
@@ -18,6 +23,6 @@
 <script>
 $(document).ready(function(){
     $('.carousel').carousel()
-})
+});
 </script>
     </div><!-- /.carousel -->
