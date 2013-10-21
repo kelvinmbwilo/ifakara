@@ -25,7 +25,7 @@
                 $date  = date("l F,j Y", strtotime($row['date']));
                 $query1 = mysql_query("SELECT * FROM course WHERE id='{$row['course_id']}'");
                 while ($row3 = mysql_fetch_array($query1)) {
-                echo "<li><a href='#'><span>Disaster medicine and health crisis management - University of Athens</span>"; 
+                echo "<li><a href='#'><span><i class='icon-bookmark'></i> Disaster medicine and health crisis management - University of Athens</span>"; 
                   echo "<br><span style='color:black; font-size: 0.7em'>{$date}</span></a></li>";  
                 }
               }
