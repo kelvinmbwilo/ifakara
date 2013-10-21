@@ -57,11 +57,11 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-info-sign"></i> Practical Information <b class="caret"></b></a>
                       <ul class="dropdown-menu">
-                          <li><a href="<?php echo $rootdocument ?>/pages/about.php">Information Center</a></li> 
-                         <li><a href="<?php echo $rootdocument ?>/pages/director.php">How To Get Here</a></li>
-                         <li><a href="<?php echo $rootdocument ?>/pages/staff.php">Helpful Links</a></li>
-                         <li><a href="<?php echo $rootdocument ?>/pages/faculty.php">Conferences</a></li>
-                         <li><a href="<?php echo $rootdocument ?>/pages/faculty.php">Photo Album</a></li>
+                          <li><a href="<?php echo $rootdocument ?>/pages/information.php">Information Center</a></li> 
+                         <li><a href="<?php echo $rootdocument ?>/pages/directions.php">How To Get Here</a></li>
+                         <li><a href="<?php echo $rootdocument ?>/pages/links.php">Helpful Links</a></li>
+                         <li><a href="<?php echo $rootdocument ?>/pages/conference.php">Conferences</a></li>
+                         <li><a href="<?php echo $rootdocument ?>/pages/album.php">Photo Album</a></li>
                       </ul>
                     </li>
                     <li><a href="<?php echo $rootdocument ?>/pages/FAQ.php"><i class="icon-question"></i> FAQs</a></li>
@@ -91,6 +91,13 @@
             $(this).addClass("active").css("background-color","#A89119");
         },function(){
             $(this).removeClass("active").css("background-color","inherit");
+        });
+    
+    $("#navs .nav-collapse li.dropdown").hover(function(){
+            $("#navs .nav-collapse li.dropdown").removeClass("open");
+            $(this).addClass("open")
+        },function(){
+            $(this).removeClass("open")
         })
 })
 </script>
