@@ -79,8 +79,6 @@ include_once '{$rootdocument}/includes/connection.php';
             <!--recent events-->
             
             
-            
-            </div>
         <?php include 'includes/footer.php'; ?>
         
     </body>

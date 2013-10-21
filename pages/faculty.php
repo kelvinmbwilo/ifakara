@@ -4,7 +4,7 @@ include 'top.php';
 <div class="row-fluid">
 <h3>Dr. Kambona, Internal Medicine</h3>
 <p>
-    <img src="../img/kambona.jpg" class="img-circle pull-left" /> 
+    <img src="../img/kambona.jpg" class="img-circle pull-left" style="height: 200px" /> 
     <span>
         Dr. Kambona is a professional Physician and a tutor for assistant medical officers.
 He graduated at Tumaini University Kilimanjaro, Tanzania (M.MED)
@@ -17,7 +17,7 @@ He graduated at Tumaini University Kilimanjaro, Tanzania (M.MED)
 <div class="row-fluid">
 <h3>Dr. Janeth Bulemela, Pediatrician</h3>
 <p>
-    <img src="../img/janeth.jpg" class="img-circle pull-left" /> 
+    <img src="../img/janeth.jpg" class="img-circle pull-left" style="height: 200px"/> 
     <span>
         Dr. Janeth Caroline Bulemela is a professional in pediatric and child health with extensive knowledge and experience in management of Diabetes Mellitus and endocrinology, infectious diseases, neurology, neonatology care and follow-up etc.
 
@@ -39,7 +39,7 @@ She graduated as a Doctor of medicine, Pediatrician (master of medicine in pedia
 <div class="row-fluid">
 <h3>Dr. Esther Kyungu MD, MSc Vaccinology and Pharmaceutical Clinical Development</h3>
 <p>
-    <img src="../img/estherk.jpg" class="img-circle pull-left" /> 
+    <img src="../img/estherk.jpg" class="img-circle pull-left" style="height: 200px" /> 
     <span>
         Esther is a Medical Doctor and Tutor of the Tanzanian Training Centre for International Health (TTCIH), an organization based in Ifakara, Morogoro Region.
 
@@ -59,7 +59,7 @@ Her research has centered on issues in tropical infectious diseases and vaccines
 <div class="row-fluid">
 <h3>Dr. Edward Amani, Surgery</h3>
 <p>
-    <img src="../img/Amani.jpg" class="img-circle pull-left" /> 
+    <img src="../img/Amani.jpg" class="img-circle pull-left" style="height: 200px" /> 
     <span>
         Dr. Edward Amani is a general practitioner working with TTCIH as a tutor in Internal Medicine and also a registrar in the department of Internal Medicine of the St. Francis Referral Hospital.
 
@@ -73,7 +73,7 @@ He graduated as a Doctor of Medicine in 2007 from Muhimbili University of Health
 <div class="row-fluid">
 <h3>Dr. Hassan Ismail Njete</h3>
 <p>
-    <img src="../img/Hassan.jpg" class="img-circle pull-left" /> 
+    <img src="../img/Hassan.jpg" class="img-circle pull-left" style="height: 200px"/> 
     <span>
         Dr. Hassan Ismail Njete is a Medical Doctor from the Muhimbili University of Health and Allied Sciences in Dar es Salaam, Tanzania.
 
@@ -95,7 +95,7 @@ Facilitator in Emergency Obstetric Care upgrading course held at Ifakara sponsor
 <div class="row-fluid">
 <h3>Dr. Aza Lyimo</h3>
 <p>
-    <img src="../img/aza.jpg" class="img-circle pull-left" /> 
+    <img src="../img/aza.jpg" class="img-circle pull-left" style="height: 200px"/> 
     <span>
         Dr. Aza Lyimo is a registered medical doctor working as a tutor at the Tanzania Training Centre for International Health (TTCIH) in the department of Paediatric and Child Health since October 2009. He also works as a paediatric registrar at St. Francis Referral Hospital, based in the neonatal unit. He is a trainer of Integrated Management of Childhood Illness (IMCI) using IMCI computerised adaptation training tool (ICATT), a World Health Organization and Novartis Foundation for Sustainable Development initiative. He’s a currently a training coordinator of the Community Health Agents course, a nine month course run at TTCIH. Dr. Aza is involved in developing the competence-based curricula for different courses at TTCIH and other partners.
 

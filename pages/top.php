@@ -12,14 +12,13 @@
       </div>
         
             <!--contents-->
-            <div class="row-fluid" style="background: #E2E7E3" >
+            <div class="row-fluid" style="" >
                 <div class="span1"></div>
                 <div class="span10">
                     <div class="row-fluid" >
-                    <div class="span2  text-left" id="leftnav">
+                    <div class="span2  text-left visible-desktop" id="leftnav">
                         <?php include '../includes/left_navigation.php'; ?>
                     </div>
                    <div class="span7">
                        
                    
-

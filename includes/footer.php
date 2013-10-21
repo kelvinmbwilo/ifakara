@@ -1,4 +1,4 @@
-<div style="background: #7A7A7A;color: white;padding: 20px" align="center" id="footer" class="row-fluid">
+<div style="background: #7A7A7A;background-image: url(img/back1.jpg);color: white;padding: 20px" align="center" id="footer" class="row-fluid">
     <div class="span1"></div>
         <div class="span10">
         

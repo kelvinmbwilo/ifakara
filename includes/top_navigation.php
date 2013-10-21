@@ -93,11 +93,11 @@
             $(this).removeClass("active").css("background-color","inherit");
         });
     
-    $("#navs .nav-collapse li.dropdown").hover(function(){
-            $("#navs .nav-collapse li.dropdown").removeClass("open");
-            $(this).addClass("open")
-        },function(){
-            $(this).removeClass("open")
-        })
+//    $("#navs .nav-collapse li.dropdown").hover(function(){
+//            $("#navs .nav-collapse li.dropdown").removeClass("open");
+//            $(this).addClass("open")
+//        },function(){
+//            $(this).removeClass("open")
+//        });
 })
 </script>
