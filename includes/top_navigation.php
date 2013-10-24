@@ -46,11 +46,11 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-book"></i> Education <b class="caret"></b></a>
                       <ul class="dropdown-menu">
-                         <li><a href="<?php echo $rootdocument ?>/pages/about.php">Short Training Courses</a></li> 
-                         <li><a href="<?php echo $rootdocument ?>/pages/director.php">Academic Programs</a></li>
-                         <li><a href="<?php echo $rootdocument ?>/pages/staff.php">Seminars</a></li>
-                         <li><a href="<?php echo $rootdocument ?>/pages/faculty.php">External Courses</a></li>
-                         <li><a href="<?php echo $rootdocument ?>/pages/faculty.php">Bring Your Course To Ifakara</a></li>
+                         <li><a href="<?php echo $rootdocument ?>/pages/courses.php">Short Training Courses</a></li> 
+                         <li><a href="<?php echo $rootdocument ?>/pages/courses.php">Academic Programs</a></li>
+                         <li><a href="<?php echo $rootdocument ?>/pages/courses.php">Seminars</a></li>
+                         <li><a href="<?php echo $rootdocument ?>/pages/courses.php">External Courses</a></li>
+                         <li><a href="<?php echo $rootdocument ?>/pages/bringCourse.php">Bring Your Course To Ifakara</a></li>
                          <li><a href="<?php echo $rootdocument ?>/pages/faculty.php">Moodle Login</a></li>
                       </ul>
                     </li>

@@ -34,9 +34,10 @@ if($_POST)
         
 	if(!isset($_FILES['mFile']))
 	{
-		//required variables are empty
-		die("File is empty!");
-	}
+            $FileTitle= mysql_real_escape_string($_POST['mName']); // file title
+            $query = mysql_query("INSERT INTO event VALUES ('', '$FileTitle','$uploaded_date','{$_POST['descr']}','')")or die(mysql_error());
+            die("success");
+	}else{
 
 	
 	if($_FILES['mFile']['error'])
@@ -84,6 +85,7 @@ if($_POST)
    }else{
    		die('error uploading File!');
    }
+}
 }
 
 //function outputs upload error messages, http://www.php.net/manual/en/features.file-upload.errors.php#90522

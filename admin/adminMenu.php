@@ -105,9 +105,9 @@
             </div>  
                 
                 <!--vacancy menu defination-->
-<!--                <div class="accordion-group">  
+               <div class="accordion-group">  
                     <div class="accordion-heading" id="allall">  
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#colvacancy" id="current">Vacancy <i class="icon icon-chevron-down pull-right"></i></a>  
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#colvacancy" id="current">Photo Album<i class="icon icon-chevron-down pull-right"></i></a>  
                     </div>  
                     <div id="colvacancy" class="accordion-body collapse" style="height: 0px; ">  
                       <div class="accordion-inner">    
@@ -125,7 +125,7 @@
              
                 <div class="accordion-group">  
                     <div class="accordion-heading" id="allall">  
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#colcontact" id="current">Contacts <i class="icon icon-chevron-down pull-right"></i></a>  
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#colcontact" id="current">Application <i class="icon icon-chevron-down pull-right"></i></a>  
                     </div>  
                     <div id="colcontact" class="accordion-body collapse" style="height: 0px; ">  
                       <div class="accordion-inner">    
@@ -141,7 +141,7 @@
                     </div> 
                 </div>
 
-                <div class="accordion-group">  
+          <!--       <div class="accordion-group">  
                     <div class="accordion-heading" id="allall">  
                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#colstaff" id="current">Staff <i class="icon icon-chevron-down pull-right"></i></a>  
                     </div>  

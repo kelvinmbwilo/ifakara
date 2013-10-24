@@ -40,7 +40,7 @@ while ($row = mysql_fetch_array($query1)) {
      ?>
     
     <i class="icon-bookmark"></i>
-        <a href='#'> <?php echo $row['title'] ?></a>
+        <a href='course.php?id=<?php echo $row['id'] ?>'> <?php echo $row['title'] ?></a>
     <hr />
 
     
@@ -56,7 +56,7 @@ $query2 = mysql_query("SELECT * FROM course WHERE type='Academic Program'");
 while ($row = mysql_fetch_array($query2)) {
      ?>
     <i class="icon-bookmark"></i>
-        <a href='#'> <?php echo $row['title'] ?></a>
+        <a href='course.php?id=<?php echo $row['id'] ?>'> <?php echo $row['title'] ?></a>
     <hr />
 
     
@@ -73,7 +73,7 @@ while ($row = mysql_fetch_array($query3)) {
      ?>
 
     <i class="icon-bookmark"></i>
-        <a href='#'> <?php echo $row['title'] ?></a>
+        <a href='course.php?id=<?php echo $row['id'] ?>'> <?php echo $row['title'] ?></a>
     <hr />
 
     

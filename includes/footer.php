@@ -1,4 +1,4 @@
-<div style="background: #061856;color: white;padding: 20px" align="center" id="footer" class="row-fluid">
+<div style="background: url(<?php echo $rootdocument ?>/img/back.jpg);background-size:cover;color: white;padding: 20px" align="center" id="footer" class="row-fluid">
     <div class="span1"></div>
         <div class="span10">
         

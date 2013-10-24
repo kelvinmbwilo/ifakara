@@ -9,27 +9,27 @@
       </ol>
      <div class="carousel-inner" >
         <div class="item active">
-          <img src="img/ifakara5.jpg" alt="" style="height: 340px;width: 800px" class="img-rounded">
+          <img src="img/ifakara5.jpg" alt="" style="height: 360px;width: 800px" class="img-rounded">
           
         </div>
         <div class="item">
-          <img src="img/ifakara3.jpg" alt="" style="height: 340px;width: 800px" class="img-rounded">
+          <img src="img/ifakara3.jpg" alt="" style="height: 360px;width: 800px" class="img-rounded">
           
         </div>
         <div class="item">
-          <img src="img/ifakara1.jpg" alt="" style="height: 340px;width: 800px" class="img-rounded">
+          <img src="img/ifakara1.jpg" alt="" style="height: 360px;width: 820px" class="img-rounded">
           
           </div>
          <div class="item">
-          <img src="img/ifakara4.jpg" alt="" style="height: 340px;width: 800px" class="img-rounded">
+          <img src="img/ifakara4.jpg" alt="" style="height: 360px;width: 820px" class="img-rounded">
           
           </div>
          <div class="item">
-          <img src="img/ifakara2.jpg" alt="" style="height: 340px;width: 800px" class="img-rounded">
+          <img src="img/ifakara2.jpg" alt="" style="height: 360px;width: 800px" class="img-rounded">
           
           </div>
          <div class="item">
-          <img src="img/ifakara6.jpg" alt="" style="height: 340px;width: 800px" class="img-rounded">
+          <img src="img/ifakara6.jpg" alt="" style="height: 360px;width: 800px" class="img-rounded">
           
           </div>
         </div>

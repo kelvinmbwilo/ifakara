@@ -36,7 +36,7 @@ include_once '{$rootdocument}/includes/connection.php';
                  <div class="row-fluid text-left" style="padding-bottom: 20px">
                     <div class="row-fluid well-small">
                     <div class="span2">
-                        <img src="img/images1.jpg" style="height: 120px;width: 140px" class="img-circle">
+                        <img src="img/ifakara5.jpg" style="height: 120px;width: 140px" class="img-circle">
                     </div>
                     <div class="span10">
                     <h4><a href="#">TTCIH hosted the 1st TB PCT and film roll-out training for medical institutions</a></h4>
@@ -46,7 +46,7 @@ include_once '{$rootdocument}/includes/connection.php';
                     </div>
                 </div>
                     <div class="row-fluid well-small">
-                        <div class="span2"><img src="img/images2.jpg" style="height: 120px;width: 140px" class="img-circle"></div>
+                        <div class="span2"><img src="img/ifakara5.jpg" style="height: 120px;width: 140px" class="img-circle"></div>
                         <div class="span10">
                         <h4><a href="#">Tanzanian Training Centre for International Health (TTCIH) become a member of The Global Health Workforce Alliance</a></h4>
                         <p>4th july 2013</p>
@@ -55,7 +55,7 @@ include_once '{$rootdocument}/includes/connection.php';
                         </div>
                     </div>
                     <div class="row-fluid well-small">
-                    <div class="span2"><img src="img/images7.jpg" style="height: 120px;width: 140px" class="img-circle"></div>
+                    <div class="span2"><img src="img/ifakara5.jpg" style="height: 120px;width: 140px" class="img-circle"></div>
                     <div class="span10">
                     <h4><a href="#">BE – Beyond Epilepsy</a></h4>
                     <p>4th july 2013</p>
@@ -63,6 +63,7 @@ include_once '{$rootdocument}/includes/connection.php';
                     <a href="#" class="btn btn-mini btn-primary"><i class="icon-file"></i> More</a>
                     </div>
                 </div>
+                <a href="pages/news.php" class="btn btn-mini btn-primary"><i class="icon-file"></i> View All News</a>
             </div>
                     </div>
             </div>

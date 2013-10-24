@@ -6,9 +6,11 @@
     }
 </style>
 
+<!--////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Upcomming Courses ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////-->
 
-
-<div class="row-fluid" style="background: url(<?php echo $rootdocument ?>/img/back1.jpg);border-radius: 10px;margin-bottom: 5px;">
+<div class="row-fluid" style="background: url(<?php echo $rootdocument ?>/img/back.jpg);border-radius: 10px;margin-bottom: 5px;">
     <h3>Upcoming Courses</h3>
     <div class="row-fluid" id="cont" style="background: #f6f8fc">
         <?php
@@ -35,6 +37,9 @@
     </div>
 </div>
 
+<!--////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Search Area /////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////-->
 <form method="get" action="http://www.google.com/custom" target="_top" class="navbar-form form-search">
      <input name="domains" value="healthtrainingifakara.org" type="hidden" />
      <div class="input-append">
@@ -47,7 +52,13 @@
         <input name="client" value="pub-4398475047992702" type="hidden" /> <input name="forid" value="1" type="hidden" /><input name="ie" value="ISO-8859-1" type="hidden" /><input name="oe" value="ISO-8859-1" type="hidden" /><input name="safe" value="active" type="hidden" /><input name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1" type="hidden" /><input name="hl" value="en" type="hidden" /></td>
 </form>
 
-<div class="row-fluid" style="background: url(<?php echo $rootdocument ?>/img/back1.jpg);border-radius: 10px;margin-bottom: 1px;">
+
+
+<!--////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Partners ////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////-->
+
+<div class="row-fluid" style="background: url(<?php echo $rootdocument ?>/img/back.jpg);border-radius: 10px;margin-bottom: 1px;">
     <h3>Our Partners</h3>
     <div class="row-fluid text-left" id="cont" style="background: #f6f8fc">
         <ul class="nav nav-tabs nav-stacked">
@@ -72,6 +83,19 @@
     </div>
 </div>
 
+<div class="row-fluid">
+    <img src="<?php echo $rootdocument ?>/img/newslater.jpg" />
+    <div class="input-prepend input-append">
+        <span class="add-on">@</span>
+        <input class="span9" id="appendedPrependedInput" type="text" placeholder="email">
+        <button class="btn btn-warning" type="button">Go!</button>
+      </div>
+    
+</div>
+
+<!--////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Facebok Page ////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////-->
 <!--facebook intergration-->
 <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1" type="text/javascript"></script><fb:like-box href="http://www.facebook.com/pages/Tanzanian-Training-Centre-for-International-Health/196371877058261" width="270" show_faces="true" stream="false" header="true"></fb:like-box>
 		<!--  Raw HTML content: [end] -->

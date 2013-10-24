@@ -36,7 +36,7 @@ a{
   }
   
   #leftnav li{
-      background-image: url(../img/back1.jpg);
+      background-image: url(../img/back.jpg);
       margin-bottom: 2px;
       font-family: Arial, Georgia;
       border-bottom-right-radius: 15px;
@@ -55,7 +55,7 @@ a{
   
   #leftnav li a:active{
       color: #0e0707;
-      background-image: url(../img/back1.jpg);
+      background-image: url(../img/back.jpg);
           
   }
   
