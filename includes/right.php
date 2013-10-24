@@ -88,7 +88,7 @@
     <div class="input-prepend input-append">
         <span class="add-on">@</span>
         <input class="span9" id="appendedPrependedInput" type="text" placeholder="email">
-        <button class="btn btn-warning" type="button">Go!</button>
+        <button class="btn btn-warning" type="button" id="suscribe">Go!</button>
       </div>
     
 </div>
