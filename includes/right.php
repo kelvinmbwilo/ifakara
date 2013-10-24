@@ -28,7 +28,7 @@
                 $query1 = mysql_query("SELECT * FROM course WHERE id='{$row['course_id']}'");
                 while ($row3 = mysql_fetch_array($query1)) {
                 echo "<li><a href='#'><span><i class='icon-bookmark'></i> Disaster medicine and health crisis management - University of Athens</span>"; 
-                  echo "<br><span style='color:black; font-size: 0.7em'>{$date}</span></a></li>";  
+                  echo "<br><span style='color:black; font-size: 0.7em'>{$date}</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-warning btn-mini aplycourse'> apply</button></a></a></li>";  
                 }
               }
              }
@@ -40,7 +40,7 @@
 <!--////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////// Search Area /////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////-->
-<form method="get" action="http://www.google.com/custom" target="_top" class="navbar-form form-search">
+<form method="get" action="http://www.google.com/custom" target="_top" class="navbar-form form-search">&nbsp;
      <input name="domains" value="healthtrainingifakara.org" type="hidden" />
      <div class="input-append">
         <input name="q" size="14" value="" type="text" class="search-query" placeholder="G-Search">
@@ -91,6 +91,23 @@
         <button class="btn btn-warning" type="button" id="suscribe">Go!</button>
       </div>
     
+</div>
+
+<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
 </div>
 
 <!--////////////////////////////////////////////////////////////////////////////////////////
